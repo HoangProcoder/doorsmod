@@ -1,7 +1,7 @@
 print("Working!")
 
 -- loadstrings
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MuhXd/DoorSuff/main/OtherSuff/Sprint"))() -- sprint
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangProcoder/spdoorsmod/main/OtherSuff/Sprint"))() -- sprint
 
 game.Lighting.FogEnd = "100"
 game.Lighting.FogStart = "10"
@@ -31,7 +31,7 @@ Greed()
 end	
 
 function Ampersand()
-local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangProcoder/spsdoorsmod/main/Doors%20Entity%20Spawner/Source.lua"))()
 -- Create entity
 local entity = Creator.createEntity({
     CustomName = "Ampersand", -- Custom name of your entity
@@ -120,7 +120,7 @@ Creator.runEntity(entity)
 end
 
 function Shocker() -- shocker entity
-local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangProcoder/spsdoorsmod/main/Doors%20Entity%20Spawner/Source.lua"))()
 -- Create entity
 local entity = Creator.createEntity({
     CustomName = "Shocker", -- Custom name of your entity
@@ -209,7 +209,7 @@ Creator.runEntity(entity)
 end
 
 function greed()
-local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangProcoder/spsdoorsmod/main/Doors%20Entity%20Spawner/Source.lua"))()
 -- Create entity
 local entity = Creator.createEntity({
     CustomName = "Greed", -- Custom name of your entity
@@ -298,7 +298,7 @@ Creator.runEntity(entity)
 end
 
 function Factory()
-local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangProcoder/spsdoorsmod/main/Doors%20Entity%20Spawner/Source.lua"))()
 -- Create entity
 local entity = Creator.createEntity({
     CustomName = "Factory", -- Custom name of your entity
